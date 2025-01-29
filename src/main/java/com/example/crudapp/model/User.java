@@ -32,7 +32,6 @@ public class User {
     @Column(nullable = false)
     private String name;
 
-    // Геттеры и сеттеры
 
     public Long getId() {
         return id;
